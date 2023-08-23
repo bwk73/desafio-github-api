@@ -1,12 +1,15 @@
+import ResultCard from "../../../components/ResultCard";
+import SearchCard from "../../../components/SearchCard";
+
 export default function Result() {
   return (
     <main>
-      <section>
+      <section className="ml-90">
         <div>
-          <SeachCard />
+          <SearchCard />
         </div>
       </section>
-      <section>
+      <section className="ml-90">
         <div>
           <ResultCard />
         </div>

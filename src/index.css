@@ -1,5 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@400;700&family=Roboto:wght@400;500;700&display=swap');
+
 :root {
- background-color: #000;
- color: #fff;
+ --color-bg-primary: #F7F9FA;
+ --color-bg-secondary: #fff;
+
+ --color-bg-header-button: #1890FF;
+
+ --color-bg-searchCard: #E6F7FF;
+ --color-bg-resultCard: #F5F5F5;
+
+ --color-font-primary: #000;
+ --color-font-secondary: #fff;
+ --color-font-tertiary: #262626;
+
+ --color-font-grey-1: #7E7E7E;
+ --color-font-grey-2: #BFBFBF;
+ --color-font-grey-3: #5C5858;
+ --color-font-grey-4: #737373;
+ 
+ --color-border-grey-1: #d9d9d9;
 }
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+
+body {
+  background-color: var(--color-bg-secondary);
+}
+
+a, a:hover {
+  text-decoration: none;
+  color: unset;
+}
+
+.ml-41 {
+  margin-left: 41px;
+}
+
+.ml-90 {
+  margin-left: 90px;
+}

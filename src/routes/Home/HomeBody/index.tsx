@@ -1,10 +1,11 @@
-
+import './styles.css';
+import Button from "../../../components/Button";
 
 export default function HomeBody() {
 
     return (
 <main>
-    <section>
+    <section className="ml-41">
         <div>
             <h1>Desafio Github API</h1>
         </div>
@@ -12,7 +13,7 @@ export default function HomeBody() {
             <h2>DevSuperior - Escola de programação</h2>
         </div>
         <div>
-            <StartButton />
+            <Button />
         </div>
     </section>
 </main>

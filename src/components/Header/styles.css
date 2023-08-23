@@ -1,0 +1,12 @@
+header {
+    height: 62px;
+    background-color: var(--color-bg-header-button);
+    display: flex;
+    align-items: center;
+}
+
+header h3 {
+    color: var(--color-font-secondary);
+    font-size: 24px;
+    font-weight: 500;
+}

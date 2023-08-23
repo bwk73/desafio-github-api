@@ -1,0 +1,16 @@
+.btn-search {
+    width: 101px;
+    height: 40px;
+    background-color: var(--color-bg-header-button);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 27px;
+}
+
+.btn-search p {
+    color: var(--color-font-secondary);
+    font-size: 16px;
+    font-weight: 400;
+}

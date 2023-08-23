@@ -1,0 +1,11 @@
+.ntf-container {
+  width: 1251px;
+  height: 334px;
+  margin-top: 64px;
+}
+
+.ntf-container h2 {
+font-size: 38px;
+font-weight: 500;
+color: var(--color-font-tertiary);
+}
