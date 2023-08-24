@@ -4,9 +4,9 @@ import './styles.css';
 export default function SearchButton() {
 
     return (
-<div className='btn-search'>
+<div>
     <Link to="/result">
-    <p>Encontrar</p>
+    <button className='btn-search' type='submit'>Encontrar</button>
     </Link>
 </div>
     );

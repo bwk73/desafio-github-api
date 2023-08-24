@@ -38,14 +38,11 @@ padding: 8px 15px 17px 14px;
     border-radius: 4px;
     border: 1px solid var(--color-border-grey-1);
     background-color: var(--color-bg-secondary);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     padding: 8px 10px;;
     margin-bottom: 5px;
 }
 
-.rc-information-content span {
+.rc-information-content {
   font-size: 16px;
   font-weight: 400;
   color: var(--color-font-grey-4);
