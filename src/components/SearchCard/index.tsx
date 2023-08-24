@@ -8,9 +8,9 @@ export default function SearchCard() {
     <div>
         <h2>Encontre um perfil Github</h2>
     </div>
-    <div className='sc-content-box'>
-        <p>Usuário Github</p>
-    </div>
+    <form className='sc-content-box'>
+        <input type="text" placeholder='Usuário Github'/>
+    </form>
     <div>
         <SearchButton />
     </div>

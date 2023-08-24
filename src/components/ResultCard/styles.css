@@ -3,7 +3,7 @@
   height: 334px;
   background-color: var(--color-bg-resultCard);
   border-radius: 16px;
-  margin-top: 54px;
+  margin: 54px 0;
   padding: 0 54px;
   display: flex;
   justify-content: space-around;
