@@ -45,7 +45,19 @@ padding: 8px 15px 17px 14px;
     margin-bottom: 5px;
 }
 
-.rc-information-content p {
+.rc-information-content span {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--color-font-grey-4);
+}
+
+.fnt-blue {
+  color: var(--color-bg-header-button);
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.fnt-bold {
   font-size: 16px;
   font-weight: 700;
   color: var(--color-font-grey-4);
